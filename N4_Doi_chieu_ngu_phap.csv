@@ -1,0 +1,117 @@
+﻿Mã mẫu,Bài,Trang PDF,Cấu trúc,Nghĩa tóm tắt,Cần đối chiếu
+15A-01,15,3,Thể Thường / N/ A な + でしょう/ だろう,Chắc hẳn ～,Không
+15A-02,15,4,Thể Thường / N/ A な + でしょう/ だろう,～ phải không/ ～ đúng không?,Không
+15B-03,15,5,Thể thường / N/ A な + かもしれない,Có lẽ ～ / Có khi ～ không chừng.,Không
+15B-04,15,5,Thể thường / N/ A な + みたいだ,Hình như ～ ; Có vẻ ～,Không
+15B-05,15,6,Thể thường / N の/ A な + ようだ,Hình như ～ ; Có vẻ ～,Không
+15B-06,15,7,Thể thường / N の/ A な + はずだ,Chắc chắn ～,Không
+16A-01,16,8,Thể Thường / N/ A な ＋ らしい,Nghe nói ～,Không
+16B-03,16,10,Thể thường／「～」＋ と言っていました,Đã nói rằng… / nghe nói rằng…,Có
+16B-04,16,11,Thể thường ＋ し、 Thể thường ＋ し、～,"Vừa ～ , vừa ～",Không
+16B-05,16,12,Thể thường ＋ と思う,Tôi nghĩ là…,Có
+17A-01,17,15,「～んです」,Giải thích lý do hay tình huống (～んです).,Có
+17A-02,17,15,「～んです」,"Giải thích, cung cấp thông tin bổ sung (～んです).",Có
+17A-03,17,16,「～んです」,Nêu tình huống trước khi đề nghị hoặc hỏi (～んですが).,Có
+17B-04,17,17,「～んですか」 （１）,Hỏi để xác nhận hay tìm hiểu nguyên nhân (～んですか).,Có
+17B-05,17,17,「～んです（か）」 （2）,Câu hỏi với ～んですか trong hội thoại.,Có
+17B-06,17,18,「～んです（か）」 （3）,Dùng ～んですか để hỏi thêm về tình huống.,Có
+17B-07,17,19,(Số từ) も〜,"Tận ～ , những",Không
+18A-01,18,20,( ＋) A い /A な ＋ そう,Trông có vẻ ～,Không
+18A-02,18,21,V ます ＋ そう,Sắp V đến nơi ～,Không
+18A-03,18,22,( ＋) V ます ＋ そう,Có khả năng là,Không
+18B-04,18,23,Aいく／Aなに／Nに ＋ V,Trở nên A/N (trạng thái biến đổi).,Có
+18B-05,18,23,A い く/ A な に/ N に ＋ する,Làm cho A/ N lên,Không
+18B-06,18,24,A い く/ A な に/ N に ＋ なる,Trở nên ～ / trở thành ～,Không
+19A-01,19,25,（N は）〜を V 他,Tha động từ: chủ thể tác động lên một đối tượng.,Có
+19A-02,19,25,V 自 - Tự động từ,"Tự động từ: diễn tả biến đổi, trạng thái tự xảy ra.",Có
+19B-03,19,28,N が ＋ V 他 て ある,Một đồ vật đã ở trạng thái được làm sẵn (～てある).,Có
+19B-04,19,29,N を ＋ V 他 てある,N đã được V sẵn ～,Không
+20A-01,20,31,Cách tạo mệnh đề Bổ nghĩa cho Danh từ vốn làm Tân ngữ (1),私,Không
+20A-02,20,32,Cách tạo mệnh đề Bổ nghĩa cho Danh từ (2),Mệnh đề bổ nghĩa đứng trước danh từ (cách 2).,Có
+20A-03,20,33,Cách tạo mệnh đề Bổ nghĩa cho Danh từ (3),Mệnh đề bổ nghĩa đứng trước danh từ (cách 3).,Có
+21A-01,21,40,Vる ＋ のが A,Diễn tả sở trường hay cảm nhận về hoạt động (Vるのが…).,Có
+21A-02,21,41,V (thể thường) ＋ の ＋ は A です,Làm V giỏi/ kém/ nhanh/ chậm ～,Không
+21A-03,21,41,Thể thường,"Danh hóa mệnh đề để mô tả, nhận xét (～のは…).",Có
+21A-04,21,42,Thể thường,Danh hóa hành động trong câu (～の…).,Có
+21B-05,21,43,Thể thường,Biết về ～ (hay không?),Không
+21B-06,21,43,V (thể thường) ＋ の＋を見,Nhìn thấy/ nghe thấy ～ (sự việc nào đó),Không
+21B-07,21,44,V る + の ＋ を忘,Quên/ dừng/ từ bỏ V,Không
+22A-02,22,46,Vる ＋ な,Cấm làm V; Vる + な.,Có
+22A-03,22,47,Thể Mệnh lệnh Thể Cấm đoán Thể Thường Danh từ,～ được viết là ～ / đọc là ～ / nói là ～,Không
+22A-04,22,48,Thể Mệnh lệnh Thể Cấm đoán Thể Thường,～ có nghĩa là ～,Không
+22B-05,22,49,N って～,Giới thiệu hoặc hỏi về tên gọi / sự việc với ～って.,Có
+22B-06,22,50,N って ＋ từ để hỏi ？,Quên/ dừng/ từ bỏ V,Không
+22B-07,22,51,Thể Mệnh lệnh Thể Cấm đoán Thể Thường Danh từ,～ (được) nói là ～ / viết là ～ / đọc là ～,Không
+23A-03,23,55,A は/ が B に/ から V て＋もらう,A được B làm gì cho,Không
+23A-04,23,55,A は/ が B に/ から V て＋いただく,A được B làm gì,Không
+23B-05,23,56,V て＋ ［,Bạn có thể V cho tôi không?,Không
+23B-06,23,57,Vて ＋ ほしい,Muốn người khác làm V cho mình (～てほしい).,Có
+23C-09,23,59,A は/ が B をV ます。,B được/ bị A làm V (Câu bị động trực tiếp),Không
+23C-11,23,61,(A は・が) N をV ます 。,N được ～ bởi A (Câu bị động có chủ ngữ là đồ vật),Không
+24A-01,24,62,V て、 N/ A な ＋ で、 A い ＋ くて、,"Vì ～ , bởi ～",Không
+24A-02,24,63,V1 て、,Nối các hành động/ trạng thái trong câu bằng ～て.,Có
+24A-03,24,64,V 1 ないで、V 2,Không V 1 mà V 2,Không
+24A-04,24,65,V 1 ます ＋ ながら、V 2 ～,"Vừa V 1 , vừa V 2",Không
+24B-05,24,66,( ～が) V ます ＋ やすい/ にくい ❶,Dễ/ khó V,Không
+24B-06,24,68,A い,Quá A,Không
+24B-07,24,69,V ます ＋ すぎる,V nhiều quá,Không
+25A-02,25,71,V る,Quyết định V/ không V,Không
+25A-03,25,72,V る,Có quyết định ～ / Được quyết định là ～,Không
+25B-04,25,73,V る,Thay đổi ý định hoặc tạo thói quen; xem cách dùng trong PDF.,Có
+25B-05,25,74,V る,(Xin) hãy cố gắng V/ không V,Không
+25B-06,25,75,Vる ＋ ようになる,Trở nên có khả năng hoặc hình thành trạng thái V (～ようになる).,Có
+25B-07,25,76,Vなく ＋ なる,Không còn V nữa (～なくなる).,Có
+26A-01,26,80,V た/ V ない ＋ ほうがいい,Nên/ Không nên V,Không
+26A-02,26,81,V 1 たり、V 2 たりする,"Khi thì V 1 , khi thì V 2",Không
+26A-03,26,82,V 1 たら、V 2 た,"Khi V 1 thì V 2 (bất ngờ xảy ra, nhận ra)",Không
+26B-04,26,83,（まだ）V ていない,Dễ/ khó V,Không
+26B-05,26,84,V る ＋ ところ,Sắp/ chuẩn bị V,Không
+26B-06,26,85,Vている／Vた ＋ ところ,Đang hoặc vừa mới thực hiện hành động (～ところ).,Có
+27A-01,27,87,V ては,Không được V,Không
+27A-02,27,88,V なくては,Phải V,Không
+27B-03,27,89,V てしまう= V ちゃう,Trót/ lỡ V,Không
+27B-04,27,90,V てしまう= V ちゃう,làm xong V,Không
+27C-05,27,91,V て ＋ おく,V sẵn,Không
+27C-06,27,92,V て ＋ くる,V rồi quay lại/ V rồi mới đến,Không
+27C-07,27,93,～V ていく/ ～V てくる （１）,V đi/ V tới,Không
+27C-08,27,94,～V ていく/ ～V てくる （2）,Sự biến đổi tiếp diễn theo thời gian với ～ていく／～てくる.,Có
+28A-01,28,95,A は/ が B を V (tự động từ) させます,A bắt B làm V,Không
+28A-02,28,96,A は/ が B に N を V (tha động từ) させます,A bắt B làm gì,Không
+28A-03,28,97,A は/ が B を V (tự động từ) させます,A cho/ để B làm V,Không
+28B-04,28,99,A は/ が B に ＋ N を V (bị động sai khiến),A bị B bắt V,Không
+28B-05,28,100,A は/ が B に V させて ＋ もらう,A được B cho làm V,Không
+29A-01,29,101,V させて ＋ ください,Hãy để tôi V/ Hãy cho tôi V,Không
+29A-02,29,102,V させて ＋ いただけませんか,Có thể cho phép tôi V được không?,Không
+29A-03,29,103,お V ます / ご N ＋ します,Khiêm nhường ngữ của V ます,Không
+29B-04,29,104,お V ます,Tôn kính ngữ của V ます,Không
+29B-05,29,105,おVます ＋ ください,Yêu cầu kính trọng với おVますください.,Có
+29B-06,29,107,V ます ＋ なさい,Hãy V,Không
+30A-01,30,108,N の とき,Khi/ lúc ～,Không
+30A-02,30,109,V 1 る ＋ とき、V 2,(Trước) khi ～,Không
+30A-03,30,110,V 1 た ＋ とき、V 2,(Sau) khi ～,Không
+30A-04,30,111,V 1 ない ＋ とき、V 2,Khi không V 1 thì V 2,Không
+30A-05,30,112,A い /A な ＋ とき、V,Những lúc A thì V,Không
+30B-06,30,113,V る/V ている/ A い /A な /N の ＋ 間,Trong lúc/ trong khi ～,Không
+30B-07,30,114,V る/V ている/ A い /A な /N の ＋ 間,Trong lúc/ trong khi ～,Không
+30B-08,30,115,N / V る ＋ まで,Tới ～ / Đến ～,Không
+30B-09,30,116,N / V る ＋ までに,Trước (khi) ～ / Chậm nhất là ～,Không
+30C-10,30,117,V (thể Thường) /A い /A な /N ＋ かどうか、～,Có ～ hay thế nào thì..,Không
+30C-11,30,118,Từ để hỏi ＋ V (thể Thường) /A い /A な /N ＋ か、～,Câu hỏi gián tiếp với từ nghi vấn + か.,Có
+30C-12,30,119,Ｖて ＋ みる,Thử V,Không
+31A-01,31,120,Thể Thường,(Vì) ～ nên ～,Không
+31A-02,31,122,Thể Thường,～ vậy mà/ nhưng mà ～,Không
+31B-03,31,123,Ｖても,Cho dù có ～ (đi chăng nữa) thì vẫn ～,Không
+31B-04,31,124,Ｖても,Mặc dù đã/Tuy đã ～ nhưng ～,Không
+32A-02,32,127,いいんじゃない（ですか）。,Nếu V thì chẳng phải tốt hay sao? Nếu V thì thế nào?,Không
+32A-03,32,128,V る ＋ と～,Nếu ～ thì ～ / Hễ ～ thì ～,Không
+32A-04,32,129,V る ＋ といい,Nên V thì hơn,Không
+32B-05,32,131,Thể Thường,Trong trường hợp ～ thì ～,Không
+32B-06,32,132,Thể Thường / N の ＋ とおり（に）,Đúng như ～ / hệt như ～,Không
+32B-07,32,133,V るの,Cho việc ～,Không
+32C-08,32,134,V る/ Ｎの ＋ ために,Để V/ Vì N,Không
+32C-09,32,134,Thể Thường,Vì ～,Không
+32C-10,32,136,V る/V ない ＋ ように,Để V/ Để không V,Không
+33A-01,33,137,Tôn kính ngữ dạng đặc biệt,Tôn kính ngữ đặc biệt khi nói về người bề trên.,Có
+33A-02,33,139,～Ｖられる (Tôn Kính ngữ),Tôn kính ngữ bằng dạng bị động ～られる.,Có
+33B-03,33,140,Khiêm nhường ngữ dạng đặc biệt,Khiêm nhường ngữ đặc biệt khi nói về hành động phía mình.,Có
+33B-04,33,143,～でございます,Dạng kính ngữ lịch sự của です: ～でございます.,Không
