@@ -1,60 +1,43 @@
-# Japanese Study Lab V7 — N5 & N4 + Trò chơi từ vựng
+# Japanese Study Lab V8 — N5/N4, học từ vựng có hình & game nhanh
 
-Web app **HTML + CSS + JavaScript thuần**, chạy trực tiếp trên máy tính hoặc đăng lên **GitHub Pages**. Không cần máy chủ, tài khoản hay API. Nội dung N5 và N4 giữ riêng; N3, N2, N1 chưa được thêm.
+Web app HTML/CSS/JavaScript chạy trực tiếp trên máy hoặc triển khai bằng GitHub Pages.
 
-## Nội dung hiện có
+## Thay đổi V8
 
-| Trình độ | Buổi học | Mục từ vựng số hóa | Kanji | Mục ngữ pháp số hóa |
-|---|---:|---:|---:|---:|
-| N5 | 86 | 1.024 | 161 | 96 |
-| N4 | 51 | 611 | 202 | 116 |
+- **Sửa thao tác trò chơi:** khi chơi, những thẻ lựa chọn chế độ được thu lại thành thanh nhỏ để câu hỏi nằm ở trên cùng, **không phải cuộn xuống tìm nút**.
+- **Trắc nghiệm** và **nhìn ảnh đoán từ:** chọn đáp án là **chấm ngay**.
+- **Gõ từ Nhật/đặt câu:** dùng **Enter để chấm**; sau khi chấm có nút **Câu tiếp theo** cố định ở cạnh dưới màn hình (không cần cuộn) và có thể dùng Enter hoặc Space để chuyển.
+- **Tự chuyển sau 1,7 giây** được **bật mặc định** khi có kết quả, có công tắc tắt ngay trong trò chơi. Nếu muốn đọc đáp án lâu hơn, tắt chức năng này.
+- Ảnh minh họa được nhúng cục bộ dưới `assets/vocab/`, **13 ảnh WebP tạo riêng** và **5 cờ SVG**; dùng cho **một số từ phù hợp**. Các từ chưa có hình riêng dùng biểu tượng minh họa chung. Ảnh chưa bao phủ hết N5/N4.
+- Ảnh cũng xuất hiện ở Flashcard và thư viện từ vựng. Chế độ **Nhìn ảnh đoán từ** chỉ sử dụng từ đã học có ảnh; nếu một buổi không có ảnh phù hợp, hãy chọn buổi khác.
+- Giữ N5 **86 buổi**, N4 **51 buổi**, tối đa **12 từ một buổi**. Giữ chấm từ/câu Kanji/Hiragana theo đáp án khai báo, gợi ý và Quizlet.
 
-Mỗi buổi có tối đa **12 từ mới**. Ngoài phần học, flashcard, bài ngữ pháp 8 câu và tra cứu, **V7 thêm mục “🎮 Trò chơi”**:
+## Cấu trúc GitHub Pages
 
-1. **Trắc nghiệm**: tới 10 câu/buổi, chuyển đổi Nhật → nghĩa và nghĩa → chữ Nhật, chấm điểm và lưu chuỗi trả lời đúng.
-2. **Gõ tiếng Nhật**: nhận nghĩa tiếng Việt và gõ từ Nhật. Chấp nhận dạng Kanji hoặc Kana **được khai báo trong dữ liệu của từ**, không dùng Romaji. Có nút gợi ý; dùng gợi ý thì tối đa 5 điểm, không dùng gợi ý thì tối đa 10 điểm.
-3. **Đặt câu**: gõ lại những câu mẫu đã học; bổ sung câu ngắn với từ đã học phù hợp như quốc gia, nghề nghiệp, đồ vật. Nhận các biến thể Kanji/Hiragana đã chuẩn bị. Cuối lượt chơi có **mục viết câu tự do**, chỉ xác minh từ mục tiêu có xuất hiện trong câu, **không khẳng định đã chấm đúng toàn bộ ngữ pháp tự do**.
-4. **Luyện lại câu sai** ngay sau lượt chơi. Điểm tốt nhất và số lần chơi được lưu trong **Tiến độ**, tách biệt N5/N4.
-
-Mặc định trò chơi lấy từ **buổi được chọn**. Có thể chọn **“Trộn các buổi đã mở”** nếu muốn ôn nhiều bài, không lấy tất cả từ của chương trình cùng lúc.
-
-## Cách mở thử trên máy tính
-
-Cách nhanh nhất là tải `Japanese_Study_Lab_V7_Mo_Truc_Tiep.html` rồi nhấp đúp file để mở trong Chrome / Edge.
-
-Hoặc giải nén `Japanese_Study_Lab_V7_GitHub_Pages.zip` và mở `index.html`. Giữ nguyên các file trong cùng một thư mục.
-
-## Cách đăng lên GitHub Pages
-
-1. Tạo một repository GitHub mới (ví dụ `japanese-study-lab`).
-2. Giải nén ZIP; upload **toàn bộ các file ở cấp gốc** lên thư mục gốc của repository.
-3. Trong repository, vào **Settings → Pages** → **Build and deployment** → **Deploy from a branch**.
-4. Chọn `main`, `/(root)` rồi lưu. Mở đường dẫn Pages mà GitHub cung cấp sau khi triển khai.
-
-Các file cần thiết:
-
-```text
+```
 index.html
 app.css
 app.js
 data-n5.js
 data-n4.js
+assets/vocab/*.webp
+assets/vocab/*.svg
 .nojekyll
 README.md
 ```
 
-CSV N4 trong ZIP chỉ dùng để tra cứu/đối chiếu nội dung.
+1. Giải nén ZIP, upload **nội dung các tệp ở cấp gốc** vào GitHub repository.
+2. Vào **Settings → Pages → Deploy from a branch**, chọn nhánh `main` và `/(root)`.
+3. Mở URL GitHub Pages được cấp.
 
-## Gõ tiếng Nhật và lưu tiến độ
+## Chạy trên máy tính
 
-- Windows: nhấn **Win + Space** để chọn **Japanese Microsoft IME** sau khi cài bàn phím Nhật. Bạn có thể gõ bằng Hiragana và dùng bộ gõ để chuyển Kanji.
-- Nếu chưa nhớ Kanji, bấm **Hiện gợi ý** rồi chọn chữ để chèn vào ô nhập; hệ thống trừ một phần điểm câu đó.
-- Tiến độ, trò chơi và các buổi N5/N4 lưu bằng **localStorage** theo **từng trình độ**. Để chuyển từ file offline sang trang GitHub Pages hoặc sang thiết bị khác, dùng chức năng **Sao lưu / Khôi phục JSON** trong Tiến độ.
-- Âm đọc phụ thuộc vào giọng tiếng Nhật của trình duyệt/thiết bị.
+- Cách đơn giản nhất: tải `Japanese_Study_Lab_V8_Mo_Truc_Tiep.html` rồi mở với Chrome/Edge. File này **đã nhúng các hình** nên không cần thư mục assets riêng.
+- Hoặc giải nén ZIP và mở `index.html`, **giữ nguyên** các tệp và thư mục assets.
 
-## Giới hạn dữ liệu và chấm câu
+## Tiến độ và quyền nội dung
 
-- Dữ liệu được chuyển từ tài liệu Dung Mori N5/N4 do người dùng cung cấp; **một số trang vẫn cần đối chiếu thủ công**. Đặc biệt CSV `N4_Doi_chieu_ngu_phap.csv` ghi những mục cần kiểm tra lại.
-- Trắc nghiệm và viết từ được tạo từ mục từ vựng đã số hóa. Câu mẫu được chấm theo các đáp án/biến thể đã biết, **không phải AI hiểu mọi câu đồng nghĩa và mọi ngữ pháp**.
-- Các ví dụ tạo tự động chỉ áp dụng với nhóm từ thích hợp; không phải trích nguyên văn từ PDF.
-- Trước khi đăng trang công khai, cần **kiểm tra quyền sử dụng/phân phối nội dung Dung Mori**. ZIP không chứa các PDF gốc.
+- Giữ nguyên localStorage theo từng trình độ từ V7 (không thay khóa). Khi chuyển từ file offline sang một URL Pages khác, cần sao lưu/khôi phục dữ liệu JSON.
+- Dữ liệu học được số hóa từ các PDF N5/N4 do người dùng cung cấp; một số mục cần đối chiếu lại PDF gốc.
+- Trước khi đăng công khai cần kiểm tra **quyền sử dụng và phân phối** tài liệu Dung Mori. Bản ZIP không chứa PDF gốc.
+- Chức năng nghe tùy thuộc giọng tiếng Nhật trên thiết bị. Các hình được tạo mới nhằm minh họa nghĩa từ, không phải ảnh chụp sản phẩm/nhân vật thực tế.

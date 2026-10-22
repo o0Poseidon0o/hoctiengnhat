@@ -209,3 +209,72 @@ ruby rt{font-size:.46em;color:#68708e;font-weight:700}
 .game-answer .jp{font-size:18px}
 .game-result-stats{grid-template-columns:1fr}
 }
+
+/* ===== Japanese Study Lab V8: minh họa từ vựng / game UX ===== */
+.vocab-grid{gap:16px}
+.visual-vocab-item{display:flex;flex-direction:column;align-items:center;text-align:center;min-height:258px;gap:8px;padding:13px!important;position:relative}
+.vocab-photo{display:block;width:100%;height:132px;object-fit:cover;border-radius:14px;background:#f3f5ff;box-shadow:0 5px 14px rgba(45,66,102,.08)}
+.visual-vocab-item .jp{font-size:30px!important;margin:0!important;line-height:1.5;min-height:auto}
+.visual-vocab-item .meaning{margin-top:0!important;font-size:14px}
+.visual-placeholder{display:grid;place-items:center;font-size:51px;background:linear-gradient(130deg,#fff8eb,#eaf7ff);border:1px solid #f3e5db}
+.visual-vocab-item .speak-inline{position:absolute;right:16px;top:16px;box-shadow:0 2px 9px #e6e5fa;background:#fff}
+.illustration-card .emoji{margin:0 0 10px;display:flex;justify-content:center}
+.illustration-picture{width:100%;height:125px;object-fit:cover;border-radius:12px}
+.illustration-card .visual-placeholder{font-size:60px}
+.visual-library-row{gap:12px;justify-content:unset!important}
+.library-vocab-img{width:67px;height:59px;flex:0 0 auto;object-fit:cover;border-radius:12px;font-size:27px}
+.visual-library-row .jp{flex:1}
+.flash-vocab-img{width:100%;max-width:250px;height:174px;object-fit:contain;display:block;margin:2px auto 16px;border-radius:15px;background:#f6f7ff}
+.flash-vocab-img.visual-placeholder{font-size:76px}
+.flash-card:has(.flash-vocab-img){min-height:380px}
+.flash-card:has(.flash-vocab-img) .card-main{display:flex;flex-direction:column;align-items:center}
+.game-mode-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.game-compact-top{max-width:770px;margin:0 auto 10px;border-radius:16px;background:linear-gradient(110deg,#f0edff,#e5f8ff);padding:11px 15px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;scroll-margin-top:15px}
+.game-compact-top .eyebrow{display:block;font-size:10px}
+.game-compact-top strong{display:block;font-size:17px;color:#343a77}
+.game-auto-toggle{display:flex;align-items:center;gap:7px;font-size:12px;color:#404b78;cursor:pointer;font-weight:700;white-space:nowrap}
+.game-auto-toggle input{accent-color:#7160d8;width:18px;height:18px}
+.game-play-panel{padding-bottom:106px}
+.game-play-panel .game-score{margin:0 auto 9px;padding:9px 15px}
+.game-play-panel .game-progress{margin-bottom:12px}
+.game-play-panel .game-question{padding:20px 24px 18px}
+.game-play-panel .game-big-word{margin:4px 0;font-size:clamp(25px,3vw,34px)}
+.game-play-panel .game-answers{margin-top:14px;gap:9px}
+.game-play-panel .game-answer{min-height:63px;padding:11px 13px}
+.game-play-panel .game-input{margin:15px 0 9px}
+.picture-question-media{width:100%;display:flex;justify-content:center;margin:-4px auto 10px}
+.game-photo{width:min(100%,285px);height:172px;object-fit:cover;border-radius:16px;background:#f4f6fc}
+.game-typing-photo{width:132px;height:92px;object-fit:cover;border-radius:12px;display:block;margin:0 auto 7px}
+.game-play-panel .game-prompt{text-align:center}
+.game-play-panel .game-feedback{padding:11px 18px;margin-top:10px}
+.game-play-panel .game-feedback .jp{font-size:21px;margin:0}
+.game-play-panel .game-feedback strong{margin-bottom:0}
+.game-float-actions{position:fixed;right:clamp(16px,4vw,65px);bottom:17px;z-index:40;display:flex;align-items:center;justify-content:center;gap:11px;max-width:calc(100vw - 25px);margin:0;padding:9px 13px;background:rgba(255,255,255,.97);border:1px solid #d9def3;border-radius:17px;box-shadow:0 12px 32px rgba(33,43,112,.18);backdrop-filter:blur(12px)}
+.game-float-actions .button{min-height:44px;padding:10px 14px}
+.game-action-summary{font-size:12px;font-weight:750;color:#556293}
+.next-countdown{font-size:10px;color:#707a9d;display:flex;align-items:center;gap:6px}
+.next-countdown i{display:block;height:5px;width:55px;border-radius:8px;background:linear-gradient(90deg,#3fcfa7,#6a79dc);transform-origin:left;animation:depleting 1.7s linear forwards}
+@keyframes depleting{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@media(max-width:1050px){.game-mode-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){
+ .game-mode-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ .game-mode{min-height:125px}
+ .vocab-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .visual-vocab-item{min-height:220px;padding:10px!important}
+ .vocab-photo{height:102px}
+ .visual-vocab-item .jp{font-size:26px!important}
+ .visual-vocab-item .meaning{font-size:13px}
+ .game-compact-top{margin-top:5px;gap:8px}
+ .game-auto-toggle{order:3;width:100%;justify-content:center}
+ .game-play-panel .game-question{padding:13px 13px 17px}
+ .game-play-panel .game-answer{min-height:54px}
+ .game-float-actions{left:9px;right:9px;bottom:max(7px,env(safe-area-inset-bottom));padding:7px 9px;border-radius:13px;gap:6px;justify-content:space-between}
+ .game-action-summary{display:none}
+ .game-float-actions .button{font-size:13px;padding:10px 11px}
+ .game-float-actions .game-quit{display:none}
+ .next-countdown i{width:40px}
+ .game-play-panel{padding-bottom:100px}
+ .game-typing-photo{width:108px;height:75px}
+}
+@media(max-width:420px){.vocab-grid{grid-template-columns:1fr}.visual-vocab-item{min-height:245px}.vocab-photo{height:142px}.game-mode{min-height:120px;padding:11px}}
+@media(prefers-reduced-motion:reduce){.next-countdown i{animation:none}}
