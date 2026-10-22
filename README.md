@@ -1,36 +1,37 @@
-# Japanese Study Lab V6 · N5 và N4 độc lập
+# Japanese Study Lab V7 — N5 & N4 + Trò chơi từ vựng
 
-Ứng dụng học tiếng Nhật bằng **HTML, CSS, JavaScript thuần**, không cần dịch vụ backend. Dùng được offline và có thể triển khai bằng GitHub Pages.
+Web app **HTML + CSS + JavaScript thuần**, chạy trực tiếp trên máy tính hoặc đăng lên **GitHub Pages**. Không cần máy chủ, tài khoản hay API. Nội dung N5 và N4 giữ riêng; N3, N2, N1 chưa được thêm.
 
-## Nội dung đã tích hợp
+## Nội dung hiện có
 
-| Trình độ | Số buổi | Từ vựng đã số hóa | Kanji | Mẫu ngữ pháp đã số hóa |
+| Trình độ | Buổi học | Mục từ vựng số hóa | Kanji | Mục ngữ pháp số hóa |
 |---|---:|---:|---:|---:|
-| N5 | 86 | 1024 | 161 | 96 |
+| N5 | 86 | 1.024 | 161 | 96 |
 | N4 | 51 | 611 | 202 | 116 |
 
-- **N5 và N4 tách riêng** dữ liệu, buổi học, lịch ôn, điểm số và chức năng xuất TXT cho Quizlet.
-- **Mỗi buổi tối đa 12 từ**, không dồn 20–30 từ/buổi.
-- N4 bao phủ các bài **15–33**; tất cả 611 mục từ, 202 Kanji và 116 mục ngữ pháp có trong bộ dữ liệu số hóa đã được phân vào buổi học (không chỉ nằm trong thư viện).
-- Mỗi buổi có **8 câu luyện**: nhận diện từ, Kanji, mẫu ngữ pháp, ghép câu và **2 câu nhập chữ Nhật có chấm điểm**.
-- Đáp án Kanji và Hiragana tương đương trong **các biến thể được khai báo** đều được chấm đúng; ứng dụng không tự động hiểu mọi câu đồng nghĩa khác.
-- Có nút **Gợi ý Kanji / Hiragana** và Furigana đối với các từ có dữ liệu cách đọc.
-- Minh họa dạng biểu tượng và màu sắc, phóng to từ vựng, giao diện đáp ứng trên điện thoại.
-- Chưa tích hợp N3/N2/N1; cấu trúc data-*.js sẵn sàng bổ sung khi có tài liệu.
+Mỗi buổi có tối đa **12 từ mới**. Ngoài phần học, flashcard, bài ngữ pháp 8 câu và tra cứu, **V7 thêm mục “🎮 Trò chơi”**:
 
-## Mở thử trên máy tính
+1. **Trắc nghiệm**: tới 10 câu/buổi, chuyển đổi Nhật → nghĩa và nghĩa → chữ Nhật, chấm điểm và lưu chuỗi trả lời đúng.
+2. **Gõ tiếng Nhật**: nhận nghĩa tiếng Việt và gõ từ Nhật. Chấp nhận dạng Kanji hoặc Kana **được khai báo trong dữ liệu của từ**, không dùng Romaji. Có nút gợi ý; dùng gợi ý thì tối đa 5 điểm, không dùng gợi ý thì tối đa 10 điểm.
+3. **Đặt câu**: gõ lại những câu mẫu đã học; bổ sung câu ngắn với từ đã học phù hợp như quốc gia, nghề nghiệp, đồ vật. Nhận các biến thể Kanji/Hiragana đã chuẩn bị. Cuối lượt chơi có **mục viết câu tự do**, chỉ xác minh từ mục tiêu có xuất hiện trong câu, **không khẳng định đã chấm đúng toàn bộ ngữ pháp tự do**.
+4. **Luyện lại câu sai** ngay sau lượt chơi. Điểm tốt nhất và số lần chơi được lưu trong **Tiến độ**, tách biệt N5/N4.
 
-Tải file độc lập `Japanese_Study_Lab_V6_Mo_Truc_Tiep.html` rồi mở bằng Chrome/Edge; hoặc giải nén ZIP này và nhấp đúp `index.html`.
+Mặc định trò chơi lấy từ **buổi được chọn**. Có thể chọn **“Trộn các buổi đã mở”** nếu muốn ôn nhiều bài, không lấy tất cả từ của chương trình cùng lúc.
 
-## Đưa lên GitHub Pages
+## Cách mở thử trên máy tính
 
-1. Tạo repository GitHub (ví dụ: `japanese-study-lab`).
-2. Giải nén ZIP và upload **toàn bộ các file ở cấp gốc** của ZIP vào root repository (không lồng thêm một thư mục).
-3. Vào **Settings → Pages → Build and deployment**, chọn **Deploy from a branch**.
-4. Chọn nhánh `main`, thư mục `/(root)`, bấm **Save**.
-5. Mở địa chỉ GitHub Pages GitHub cung cấp sau khi xuất bản.
+Cách nhanh nhất là tải `Japanese_Study_Lab_V7_Mo_Truc_Tiep.html` rồi nhấp đúp file để mở trong Chrome / Edge.
 
-Cấu trúc root:
+Hoặc giải nén `Japanese_Study_Lab_V7_GitHub_Pages.zip` và mở `index.html`. Giữ nguyên các file trong cùng một thư mục.
+
+## Cách đăng lên GitHub Pages
+
+1. Tạo một repository GitHub mới (ví dụ `japanese-study-lab`).
+2. Giải nén ZIP; upload **toàn bộ các file ở cấp gốc** lên thư mục gốc của repository.
+3. Trong repository, vào **Settings → Pages** → **Build and deployment** → **Deploy from a branch**.
+4. Chọn `main`, `/(root)` rồi lưu. Mở đường dẫn Pages mà GitHub cung cấp sau khi triển khai.
+
+Các file cần thiết:
 
 ```text
 index.html
@@ -40,22 +41,20 @@ data-n5.js
 data-n4.js
 .nojekyll
 README.md
-N4_Ke_hoach_hoc.csv
-N4_Doi_chieu_ngu_phap.csv
 ```
 
-## Tiến độ
+CSV N4 trong ZIP chỉ dùng để tra cứu/đối chiếu nội dung.
 
-- Lưu qua `localStorage` trong trình duyệt; **không tự đồng bộ** trên nhiều thiết bị.
-- Sao lưu/khôi phục bằng JSON tại mục **Tiến độ**. Chọn đúng trình độ trước khi khôi phục.
-- N5 giữ khóa tiến độ V5. N4 chuyển sang khóa V6 vì số buổi và câu hỏi đã thay đổi; điểm N4 V5 không tự quy đổi sang V6.
-- Khi xuất bản website trên domain khác, dữ liệu offline ở máy cũ không tự chuyển sang domain mới.
+## Gõ tiếng Nhật và lưu tiến độ
 
-## Nguồn và giới hạn cần chú ý
+- Windows: nhấn **Win + Space** để chọn **Japanese Microsoft IME** sau khi cài bàn phím Nhật. Bạn có thể gõ bằng Hiragana và dùng bộ gõ để chuyển Kanji.
+- Nếu chưa nhớ Kanji, bấm **Hiện gợi ý** rồi chọn chữ để chèn vào ô nhập; hệ thống trừ một phần điểm câu đó.
+- Tiến độ, trò chơi và các buổi N5/N4 lưu bằng **localStorage** theo **từng trình độ**. Để chuyển từ file offline sang trang GitHub Pages hoặc sang thiết bị khác, dùng chức năng **Sao lưu / Khôi phục JSON** trong Tiến độ.
+- Âm đọc phụ thuộc vào giọng tiếng Nhật của trình duyệt/thiết bị.
 
-- Dữ liệu được chuyển từ 3 PDF N5 và 3 PDF N4 Dung Mori do người học cung cấp.
-- N4 đã có lộ trình cho toàn bộ **611 mục từ, 202 chữ và 116 mẫu được số hóa trong phiên bản này**. Đây **không phải chứng nhận đã đối soát thủ công từng dòng với cả 3 PDF**; các trang phức tạp có thể còn sót mục hay tách nhầm ghi chú trong quá trình lấy văn bản.
-- Một số ngữ pháp N4 được đánh dấu **CẦN ĐỐI CHIẾU PDF**; ứng dụng cho biết mã mẫu và trang nguồn trong thẻ. Không xem bản tóm tắt tự động là thay thế nguyên bản PDF.
-- Đáp án luyện viết đã được biên soạn và kiểm tra dạng chữ Nhật; một số ví dụ là câu luyện bổ sung, không phải trích nguyên văn tài liệu.
-- Đối với repository hoặc website công khai, **hãy kiểm tra quyền sử dụng và phân phối nội dung Dung Mori**. Gói này không chứa PDF gốc.
-- Giọng đọc dùng `speechSynthesis` của trình duyệt, cần giọng tiếng Nhật hỗ trợ trên thiết bị.
+## Giới hạn dữ liệu và chấm câu
+
+- Dữ liệu được chuyển từ tài liệu Dung Mori N5/N4 do người dùng cung cấp; **một số trang vẫn cần đối chiếu thủ công**. Đặc biệt CSV `N4_Doi_chieu_ngu_phap.csv` ghi những mục cần kiểm tra lại.
+- Trắc nghiệm và viết từ được tạo từ mục từ vựng đã số hóa. Câu mẫu được chấm theo các đáp án/biến thể đã biết, **không phải AI hiểu mọi câu đồng nghĩa và mọi ngữ pháp**.
+- Các ví dụ tạo tự động chỉ áp dụng với nhóm từ thích hợp; không phải trích nguyên văn từ PDF.
+- Trước khi đăng trang công khai, cần **kiểm tra quyền sử dụng/phân phối nội dung Dung Mori**. ZIP không chứa các PDF gốc.
